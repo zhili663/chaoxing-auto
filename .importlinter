@@ -1,0 +1,63 @@
+# Layering contracts -- machine-enforced rules, see docs/REFACTOR_PLAN.md section 2.
+# Run with: uv run lint-imports
+#
+# NOTE: keep this file pure ASCII. import-linter reads it with the platform's
+# default locale encoding (GBK on this machine), so non-ASCII comments crash it.
+[importlinter]
+root_packages =
+    chaoxing
+include_external_packages = True
+
+[importlinter:contract:core-must-not-depend-on-entrypoints]
+name = core must never depend on api / cli
+type = forbidden
+source_modules =
+    chaoxing.core
+forbidden_modules =
+    chaoxing.api
+    chaoxing.cli
+
+[importlinter:contract:client-is-standalone]
+name = client must run standalone (no core / storage / ai / api / cli)
+type = forbidden
+source_modules =
+    chaoxing.client
+forbidden_modules =
+    chaoxing.core
+    chaoxing.storage
+    chaoxing.ai
+    chaoxing.api
+    chaoxing.cli
+
+[importlinter:contract:obs-is-the-bottom]
+name = obs is the bottom layer (consumes events only)
+type = forbidden
+source_modules =
+    chaoxing.obs
+forbidden_modules =
+    chaoxing.core
+    chaoxing.client
+    chaoxing.storage
+    chaoxing.ai
+    chaoxing.api
+    chaoxing.cli
+
+[importlinter:contract:storage-must-not-depend-on-domain]
+name = storage must not depend on domain or entrypoints
+type = forbidden
+source_modules =
+    chaoxing.storage
+forbidden_modules =
+    chaoxing.core
+    chaoxing.client
+    chaoxing.api
+    chaoxing.cli
+
+[importlinter:contract:core-must-not-import-llm-sdks]
+name = core must not import LLM SDKs directly (only chaoxing.ai may)
+type = forbidden
+source_modules =
+    chaoxing.core
+forbidden_modules =
+    openai
+    instructor

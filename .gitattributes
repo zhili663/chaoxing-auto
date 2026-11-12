@@ -1,0 +1,15 @@
+# 行尾策略：仓库内统一 LF（存储与检出都是 LF）。
+# 理由：Windows 全局 core.autocrlf=true，若不锁定，deploy/*.sh 检出时会变成 CRLF，
+# 上传到 Linux 直接报 "/bin/bash^M: bad interpreter"。
+* text=auto eol=lf
+
+# 二进制：禁止任何行尾/编码转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.db binary
+*.sqlite binary

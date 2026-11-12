@@ -1,0 +1,143 @@
+{
+  "url": "data\\debug\\captured_heartbeat.json",
+  "requests": [
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/visit/stucoursemiddle"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mycourse/studentstudy"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/visit/courselistdata"
+    },
+    {
+      "url": "https://mooc2-ans.chaoxing.com/mooc2-ans/mycourse/stu"
+    },
+    {
+      "url": "https://mobilelearn.chaoxing.com/page/active/stuActiveList"
+    },
+    {
+      "url": "https://mobilelearn.chaoxing.com/properties/language.properties"
+    },
+    {
+      "url": "https://mobilelearn.chaoxing.com/properties/language_zh_CN.properties"
+    },
+    {
+      "url": "https://mobilelearn.chaoxing.com/v2/apis/active/student/activelist"
+    },
+    {
+      "url": "https://mooc2-ans.chaoxing.com/mooc2-ans/ai-evaluate/v2/answer/activities"
+    },
+    {
+      "url": "https://mobilelearn.chaoxing.com/v2/apis/class/getClassDetail"
+    },
+    {
+      "url": "https://mobilelearn.chaoxing.com/v2/apis/class/getIsIos"
+    },
+    {
+      "url": "https://mobilelearn.chaoxing.com/v2/apis/active/getData"
+    },
+    {
+      "url": "https://mobilelearn.chaoxing.com/v2/apis/active/getStatusData"
+    },
+    {
+      "url": "https://mooc2-ans.chaoxing.com/mooc2-ans/mycourse/studentcourse"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mycourse/transfer"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/mycourse/studentstudyAjax"
+    },
+    {
+      "url": "https://noteyd.chaoxing.com/apis/mirrorConfig"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/knowledge/cards"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/mycourse/studentstudycourselist"
+    },
+    {
+      "url": "https://robot-lc.chaoxing.com/v1/api/robot/course/getRobotId"
+    },
+    {
+      "url": "https://robot-lc.chaoxing.com/v1/api/robot/course/getCartoonSetting"
+    },
+    {
+      "url": "https://robot-lc.chaoxing.com/v1/api/doorChat/check"
+    },
+    {
+      "url": "https://robot-lc.chaoxing.com/v1/front/chat/digitalHuman/getCartoonMaterial"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/ananas/modules/work/index.html"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/chapter-document/marklists"
+    },
+    {
+      "url": "https://robot-static.chaoxing.com/v1/front/proxy/cartoon-animation/{id}/bm9ybWFs.json"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/api/work"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/workHandle/handle"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/work/doHomeWorkNew"
+    },
+    {
+      "url": "https://stat2-ans.chaoxing.com/course-ai/stat"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/css/work/viewer.min.css"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/space/work/js/viewer-jquery.min.js"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/spacx/new/css/work-css-tpl.cssx"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/mooc2/css/work/fill-in-blanks.css"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/ananas/space/exam/js/enc_js_work.js"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/mooc2/js/workEnglishWriting.js"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/space/work/js/attach-mark.js"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/space/work/js/preview-attach.js"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/js/work/work-audio-playtimes.js"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/mooc2/css/work/questionCommon.css"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/verifyCode/stuWork"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/space/new/js/resizeWorkWindow.js"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/work/validate"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/multimedia/log/a/{id}/{id}"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/ananas/modules/video/index.html"
+    },
+    {
+      "url": "https://mooc1.chaoxing.com/mooc-ans/work/addStudentWorkNewWeb"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+# 运行时数据（数据库、日志、验证码图片、校准 dump）
+# 注意：必须写成 data/* 而不是 data/ —— 目录整体被忽略后，
+# 下面的 !data/.gitkeep 会失效（git 不允许反忽略"被忽略目录"内的文件）。
+data/*
+!data/.gitkeep
+
+# 环境变量（含密钥与账号）
+# 注意：.env.bak 是 init_env.py 生成的备份，**同样含 SECRET_KEY 与 API Key**，
+# 因此用通配符一并排除，只保留模板 .env.example。
+.env
+.env.*
+!.env.example
+
+# 账号文件（含真实凭据，绝不入库）
+accounts.txt
+accounts_*.txt
+!accounts.example.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.import_linter_cache/
+*.tsbuildinfo
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 浏览器实机校验的截图产物（脚本每次都会重新生成）
+.browser-check/
+
+# 一次性验证环境（真库副本 / 空库），不进仓库
+tmp-verify/
+tmp-empty/
+.tools/
